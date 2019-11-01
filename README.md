@@ -1,6 +1,6 @@
 # Command to Fix DNS under WSL when running a VPN connection
 
-This is a quick script to fix for your DNS when running WSL from a VPN connection.
+This is a quick script to fix for your DNS when running WSL1 from a VPN connection. I had a need for it when using WSL1 with a corporate GlobalProtect VPN client. I hope it helps someone else.
 
 ## Install Script
 
