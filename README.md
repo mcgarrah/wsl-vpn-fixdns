@@ -26,7 +26,7 @@ Add the script to the Bash startup
 $ vi ~/.bashrc
 ...
 # Added for GlobalProtect VPN DNS issue
-/usr/local/bin/fixdns
+sudo /usr/local/bin/fixdns
 ```
 
 ## Running Script Manually
