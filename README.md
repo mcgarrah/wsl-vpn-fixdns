@@ -18,7 +18,7 @@ Add a sudoers entry to run without password prompt
 $ sudo visudo
 ...
 # FixDNS for GlobalProtect VPN
-%gpfixdns ALL=NOPASSWD: /usr/local/bin/fixdns
+%sudo ALL=NOPASSWD: /usr/local/bin/fixdns
 ```
 
 Add the script to the Bash startup
