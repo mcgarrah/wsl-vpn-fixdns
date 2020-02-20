@@ -35,7 +35,7 @@ echo "------------------------"
         echo nameserver $i
     done
     tail -n+2 /etc/resolv.conf | grep -v '^nameserver'
-} | tr -d '\r' | tee $tmp
+} | tr -d '\r' | awk '!seen[$0]++' | tee $tmp
 
 (set -x; sudo cp $tmp /etc/resolv.conf)
 
